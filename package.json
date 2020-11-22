@@ -1,0 +1,21 @@
+{
+  "name": "rocket-game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress",
+    "build": "webpack -d --progress --colors"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "eslint-loader": "^4.0.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
