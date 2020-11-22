@@ -1,0 +1,35 @@
+body {
+  font-family: Impact, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+button {
+  position: absolute;
+  top: 18px;
+  left: 720px;
+  font-family: Impact, Arial, sans-serif;
+}
+
+input {
+  position: absolute;
+  top: 20px;
+  &:first-of-type {
+    left: 630px;
+    & + input {
+      left: 650px;
+      & + input {
+        left: 670px;
+      }
+    }
+  }
+}
+
+p {
+  margin: 0;
+  position: absolute;
+  top: 18px;
+  left: 480px;
+  color: #fff;
+  font-size: 20px;
+}
